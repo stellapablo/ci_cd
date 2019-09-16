@@ -5,7 +5,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints: 
-            - "3c:d3:a8:ad:a7:66:d9:58:f7:90:1a:fb:b5:a3:cf:95"
+            - "ab:a9:27:39:2b:93:9c:e5:3c:1c:15:03:40:dc:4a:93"
       - checkout
       - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
       - run: docker build -t pablostella/ci_cd:$CIRCLE_SHA1 .
