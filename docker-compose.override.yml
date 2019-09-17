@@ -1,0 +1,2 @@
+holadocker:
+   image: stellapablo/ci_cd        
